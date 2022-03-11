@@ -1,0 +1,38 @@
+/* * {
+    background-color: aqua;
+    background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/67/17/32/61/700_FO67173261_7ea6d0aa7629348cbb1a999a1a620d9f.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/posters-blue-watercolor-brush-strokes.jpg.jpg");
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+button {
+    background: transparent;
+    padding: .3rem;
+	border: none;
+    width: 5rem;
+    border: solid white .1rem;
+    border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    padding: .4rem;
+} */
+
+
+/* .hero-content {
+    
+} */

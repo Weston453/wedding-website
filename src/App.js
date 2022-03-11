@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+
+import HeroPage from './components/HeroPage';
+import Welcome from './components/Welcome';
+import EventList from './components/EventList';
+import MenuMain from './components/MenuMain';
+import CoctailHour from './components/Menu/CoctailHour';
+import OpenBar from './components/Menu/OpenBar';
+import Dinner from './components/Menu/Dinner';
+import DessertSnacks from './components/Menu/DessertSnacks';
+import WhosWho from './components/WhosWho';
+import Seating from './components/Seating';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<HeroPage />} />
+          <Route path='/Welcome' element={<Welcome />} />
+          <Route path='/EventList' element={<EventList />} />
+          <Route path='/MenuMain' element={<MenuMain />} />
+          <Route path='/CoctailHour' element={<CoctailHour />} />
+          <Route path='/OpenBar' element={<OpenBar />} />
+          <Route path='/Dinner' element={<Dinner />} />
+          <Route path='/DessertSnacks' element={<DessertSnacks />} />
+          <Route path='/WhosWho' element={<WhosWho />} />
+          <Route path='/Seating' element={<Seating />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
