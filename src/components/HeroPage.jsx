@@ -4,7 +4,7 @@ import './heroPage.css'
 
 const HeroPage = () => {
   return (
-    <div>
+    <div className="whole-page">
       <section className='hero-container'>
         <div className='hero-content'>
           <h1>Welcome to Korie and Weston's Wedding</h1>

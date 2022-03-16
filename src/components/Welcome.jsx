@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Welcome = () => {
   return (
-    <div>
+    <div className="whole-page">
       <section>
         <h1>Korie and Weston's Wedding</h1>
         <div>hamburger</div>

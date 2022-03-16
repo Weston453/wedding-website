@@ -55,6 +55,16 @@ body {
   background-repeat: no-repeat;
   position: fixed;
   background-size: cover;
+  height: 100%;
+}
+
+.whole-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
 
 .hero-container {
