@@ -1,0 +1,21 @@
+.NavBar .MobileNav {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .NavBar .Nav {
+        display: none;
+    }
+
+    .NavBar .MobileNav {
+        display: flex;
+        align-items: center;
+        background: red;
+    }
+
+    .NavBar .MobileNav .Hamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+}

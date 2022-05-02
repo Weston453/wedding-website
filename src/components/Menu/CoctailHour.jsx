@@ -28,7 +28,7 @@ const CoctailHour = () => {
           <p>tomato jam, basil</p>
           <h3>Wild Mushroom Tart</h3>
           <p>goat cheese, truffle salt, black garlic</p>
-          <h3>Smoked Salmon</h3>
+          <h3>Smoked Salmon (GF)</h3>
           <p>cucumber, lemon crème fraiche, dill</p>
           <h3>Dungeness Crab Cake</h3>
           <p>lemon aioli, fried caper</p>
