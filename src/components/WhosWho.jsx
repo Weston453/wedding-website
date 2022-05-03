@@ -1,14 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const WhosWho = () => {
   return (
-    <div className="whole-page">
-      <section>
-        <h1>Who's Who</h1>
-        <div>hamburger</div>
-      </section>
+    <div className="Whos-Who">
       <main>
+        <h1>Who's Who</h1>
         <div>
           <h2>
             Groom's Side
@@ -50,15 +46,6 @@ const WhosWho = () => {
           <p>Bridesmaid</p>
         </div>
       </main>
-      <Link to="/Welcome">Welcome</Link>
-      <Link to="/EventList">EventList</Link>
-      <Link to="/MenuMain">MenuMain</Link>
-      <Link to="/CoctailHour">CoctailHour</Link>
-      <Link to="/OpenBar">OpenBar</Link>
-      <Link to="/Dinner">Dinner</Link>
-      <Link to="/DessertSnacks">DessertSnacks</Link>
-      <Link to="/WhosWho">WhosWho</Link>
-      <Link to="/Seating">Seating</Link>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Seating = () => {
   return (
-    <div className="whole-page">
+    <div className='Container'>
       <section>
         <h1>Seating Chart</h1>
         <div>hamburger</div>

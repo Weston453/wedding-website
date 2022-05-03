@@ -14,13 +14,16 @@ const MobileNav = () => {
 
   const closeHamburger = <CgCloseO className={classes.Hamburger} 
                         size="40px"
+                        color="white"
                         onClick={() => setOpen(!open)}
                         />
+
+  const closeMobileNav = () => setOpen(false)
 
   return (
     <nav className={classes.MobileNav}>
       {open ? closeHamburger : hamburgerIcon}
-      {open && <NavLinks />}
+      {open && <NavLinks isMobile={true} closeMobileNav={closeMobileNav} />}
 
     </nav>
   )

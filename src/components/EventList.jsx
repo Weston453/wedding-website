@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const EventList = () => {
   return (
-    <div className="whole-page">
+    <div className="Container">
       <section>
         <h1>Order of Events</h1>
-        <div>hamburger</div>
       </section>
       <main>
         <table>
@@ -63,18 +61,7 @@ const EventList = () => {
           05 .29. 22
         </h3>
       </footer>
-      <Link to="/Welcome">Welcome</Link>
-      <Link to="/EventList">EventList</Link>
-      <Link to="/MenuMain">MenuMain</Link>
-      <Link to="/CoctailHour">CoctailHour</Link>
-      <Link to="/OpenBar">OpenBar</Link>
-      <Link to="/Dinner">Dinner</Link>
-      <Link to="/DessertSnacks">DessertSnacks</Link>
-      <Link to="/WhosWho">WhosWho</Link>
-      <Link to="/Seating">Seating</Link>
     </div>
-
-    
   )
 }
 

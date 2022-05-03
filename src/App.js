@@ -11,10 +11,12 @@ import Dinner from './components/Menu/Dinner';
 import DessertSnacks from './components/Menu/DessertSnacks';
 import WhosWho from './components/WhosWho';
 import Seating from './components/Seating';
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
   return (
     <div>
+      <NavBar />
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<HeroPage />} />
