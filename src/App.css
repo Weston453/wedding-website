@@ -103,9 +103,9 @@ main {
 }
 
 button {
-  /* background: transparent; */
-  margin-top: 2%;
-  /* background: blue; */
+  background: skyblue;
+  color: white;
+  margin-top: 30%;
   padding: .3rem;
   border: none;
   width: 5rem;
@@ -115,6 +115,5 @@ button {
 }
 
 button:hover {
-  background: blue;
-  /* padding: .4rem; */
+  color: black;
 }

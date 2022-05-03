@@ -52,6 +52,10 @@
         display: none;
     }
 
+    .NavBar .MobileNav h1 {
+        color: white;
+    }
+
     .NavBar .MobileNav {
         display: flex;
         align-items: center;
@@ -72,12 +76,13 @@
         width: 100%;
         background-color: skyblue;
         list-style: none;
+        padding-bottom: 2%;
     }
     
     .NavBar nav ul li {
         text-align: left;
         /* display: flex; */
-        /* margin: 10px 0; */
+        margin: 1% 0;
         text-decoration: none;
         color: black;
         font-weight: 500;

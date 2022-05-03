@@ -4,8 +4,10 @@ const HeroPage = () => {
   return (
     <div>
       <div className='Container'>
-          <h1>Welcome to Korie and Weston's Wedding</h1>
-          <button>Join us</button>
+          <h1>Welcome to</h1>
+          <h1>Korie and Weston's</h1> 
+          <h1>Wedding</h1>
+          <a href="/Welcome"><button>Join us</button></a>
       </div>
     </div>
   )
