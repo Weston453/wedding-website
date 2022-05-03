@@ -10,13 +10,13 @@ const MobileNav = () => {
 
   const hamburgerIcon = <FiMenu className={classes.Hamburger} 
                         size="40px"
-                        color="white"
+                        // color="white"
                         onClick={() => setOpen(!open)}
                         />
 
   const closeHamburger = <VscChromeClose className={classes.Hamburger} 
                         size="40px"
-                        color="white"
+                        // color="white"
                         onClick={() => setOpen(!open)}
                         />
 
@@ -24,7 +24,7 @@ const MobileNav = () => {
 
   return (
     <nav className={classes.MobileNav}>
-      <h1>Korie and Weston's Wedding</h1>
+      <a href="/"><h1>Korie & Weston's Wedding</h1></a>
       {open ? closeHamburger : hamburgerIcon}
       {open && <NavLinks isMobile={true} closeMobileNav={closeMobileNav} />}
     </nav>
