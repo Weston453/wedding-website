@@ -10,20 +10,30 @@
     z-index: 1;
 }
 
-.NavBar nav ul {
-    display: flex;
-    list-style: none;
+.NavBar a {
+    text-decoration: none;
     padding: 0;
     margin: 0;
-}
-
-.NavBar nav ul li a{
-    text-decoration: none;
     color: black;
     margin-left: 1.5rem;
     font-size: 20px;
     font-weight: 700;
 }
+
+/* .NavBar nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+} */
+
+/* .NavBar nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 700;
+} */
 
 .NavBar a:hover {
     color: skyblue;
@@ -85,28 +95,12 @@
         border-bottom: 1px solid;
     }
     
-    .NavBar nav ul li {
-        /* text-align: left; */
-        /* display: flex; */
-        margin: 1% 0;
-        text-decoration: none;
-        color: black;
-        font-weight: 500;
-    }
-    
-    .NavBar nav ul li a {
-        /* margin-top: 40px; */
-        text-decoration: none;
-        color: black;
-        font-weight: 500;
-    }
-    
     .NavBar a:hover {
         color: skyblue;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 520px) {
     .NavBar {
         padding: 0 2%;
         justify-content:flex-start;
@@ -120,7 +114,7 @@
     
 }
 
-@media (max-width: 370px) {
+@media (max-width: 460px) {
     .NavBar .MobileNav h1 {
         display: none;
     }
