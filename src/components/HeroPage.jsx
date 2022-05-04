@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from './NavBar/NavBar'
+import { Link } from 'react-router-dom'
 
 const HeroPage = () => {
   return (
@@ -9,7 +10,7 @@ const HeroPage = () => {
           <h1>Welcome to</h1>
           <h1>Korie and Weston's</h1> 
           <h1>Wedding</h1>
-          <a href="/Welcome"><button>Join us</button></a>
+          <Link to="/Welcome"><button>Join us</button></Link>
       </div>
     </div>
   )
