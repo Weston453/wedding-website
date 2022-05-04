@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar/NavBar'
 
 const HeroPage = () => {
   return (
     <div>
+      <NavBar />
       <div className='Container'>
           <h1>Welcome to</h1>
           <h1>Korie and Weston's</h1> 

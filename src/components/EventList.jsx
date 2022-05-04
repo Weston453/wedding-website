@@ -1,7 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar/NavBar'
 
 const EventList = () => {
   return (
+    <div>
+    <NavBar />
     <div className="Container">
       <section>
         <h1>Order of Events</h1>
@@ -61,6 +64,7 @@ const EventList = () => {
           05 .29. 22
         </h3>
       </footer>
+    </div>
     </div>
   )
 }
