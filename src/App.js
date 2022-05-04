@@ -16,7 +16,7 @@ import NavBar from './components/NavBar/NavBar';
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<HeroPage />} />

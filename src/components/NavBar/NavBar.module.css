@@ -67,6 +67,10 @@
         right: .5%;
         cursor: pointer;
     }
+
+    .NavBar .MobileNav .Hamburger:hover{
+        color: skyblue;
+    }
     
     .NavBar nav ul {
         display: flex;
