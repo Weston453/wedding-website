@@ -1,25 +1,26 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavLinks = ({isMobile, closeMobileNav}) => {
   return (
     <ul>
         <li onClick={() => isMobile && closeMobileNav()}>
-            <a href="/">Home</a>
+            <Link exact to="/">Home</Link>
+        </li>
+        <li>
+            <Link to="/Welcome">Welcome</Link>
         </li>
         <li onClick={() => isMobile && closeMobileNav()}>
-            <a href="/Welcome">Welcome</a>
+            <Link to="/EventList">Events</Link>
         </li>
         <li onClick={() => isMobile && closeMobileNav()}>
-            <a href="/EventList">EventList</a>
+            <Link to="/MenuMain">Menu</Link>
         </li>
         <li onClick={() => isMobile && closeMobileNav()}>
-            <a href="/MenuMain">MenuMain</a>
+            <Link to="/WhosWho">Whos Who</Link>
         </li>
         <li onClick={() => isMobile && closeMobileNav()}>
-            <a href="/WhosWho">WhosWho</a>
-        </li>
-        <li onClick={() => isMobile && closeMobileNav()}>
-            <a href="/Seating">Seating</a>
+            <Link to="/Seating">Seating</Link>
         </li>
     </ul>
   )
