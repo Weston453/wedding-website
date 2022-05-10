@@ -1,5 +1,5 @@
 .NavBar {
-    background-color: white;
+    /* background-color: white; */
     height: 70px;
     width: 100%;
     display: flex;
@@ -11,47 +11,20 @@
 }
 
 .NavBar a {
+    font-family: 'Avenir LT Pro';
     text-decoration: none;
     padding: 0;
     margin: 0;
     color: black;
     margin-left: 1.5rem;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 300;
+    line-height: 1.5;
 }
-
-/* .NavBar nav ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-} */
-
-/* .NavBar nav ul li a{
-    text-decoration: none;
-    color: black;
-    margin-left: 1.5rem;
-    font-size: 20px;
-    font-weight: 700;
-} */
 
 .NavBar a:hover {
     color: skyblue;
-    /* text-decoration: underline 3px dotted; */
 }
-
-/* .NavBar {
-    height: 80px;
-    background: red;
-    display: flex;
-}
-
-.NavBar nav ul {
-    display: flex;
-    width: 100%;
-    background-color: grey;
-    list-style: none;
-} */
 
 .NavBar .MobileNav {
     display: none;
@@ -61,7 +34,7 @@
     .NavBar .Nav {
         display: none;
     }
-
+    
     .NavBar .MobileNav a {
         color: black;
         text-decoration: none;

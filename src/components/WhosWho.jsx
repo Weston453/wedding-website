@@ -6,6 +6,7 @@ const WhosWho = () => {
     <div>
       <NavBar />
       <div className="Whos-Who">
+      {/* <div className="Container"> */}
         <main>
           <h1>Who's Who</h1>
           <div>
@@ -15,17 +16,17 @@ const WhosWho = () => {
             <div>
               icon
             </div>
-            <h3>Mike and Cheryl Isheim</h3>
+            <h2>Mike and Cheryl Isheim</h2>
             <p>Weston's Parents</p>
-            <h3>Dell Barnes</h3>
+            <h2>Dell Barnes</h2>
             <p>Best Man</p>
-            <h3>Ray Reynolds</h3>
+            <h2>Ray Reynolds</h2>
             <p>Groomsman</p>
-            <h3>Lucas Broskey</h3>
+            <h2>Lucas Broskey</h2>
             <p>Groomsman</p>
-            <h3>Gabe Cohen</h3>
+            <h2>Gabe Cohen</h2>
             <p>Groomsman</p>
-            <h3>Emma Isheim</h3>
+            <h2>Emma Isheim</h2>
             <p>Bridesmaid</p>
           </div>
           <div>
@@ -35,17 +36,17 @@ const WhosWho = () => {
             <div>
               icon
             </div>
-            <h3>Ken and Kelly Bayne</h3>
+            <h2>Ken and Kelly Bayne</h2>
             <p>Korie's Parents</p>
-            <h3>Rachel Brenneman and Mark Bensen</h3>
+            <h2>Rachel Brenneman and Mark Bensen</h2>
             <p>Maid/Man of Honor</p>
-            <h3>Neha Jwala</h3>
+            <h2>Neha Jwala</h2>
             <p>Bridesmaid</p>
-            <h3>Cortney VanMilligen</h3>
+            <h2>Cortney VanMilligen</h2>
             <p>Bridesmaid</p>
-            <h3>Courtney Owings</h3>
+            <h2>Courtney Owings</h2>
             <p>Bridesmaid</p>
-            <h3>Ella Isheim</h3>
+            <h2>Ella Isheim</h2>
             <p>Bridesmaid</p>
           </div>
         </main>

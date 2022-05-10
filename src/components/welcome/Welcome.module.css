@@ -1,0 +1,33 @@
+.welcomeTitle {
+    position: absolute;
+    top: .5rem;
+}
+
+.welcomeUnplugged {
+    font-size: 2rem;
+    margin: 1rem;
+    /* border-top: 2px white solid; */
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+.welcomePOne {
+    font-family: 'Avenir LT Pro';
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    margin-top: 5rem;
+}
+
+.welcomePTwo {
+    font-family: 'Avenir LT Pro';
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+hr {
+    border-top: 2px solid white;
+    width: 70vw;
+    margin: auto;
+    margin-top: .25rem;
+}

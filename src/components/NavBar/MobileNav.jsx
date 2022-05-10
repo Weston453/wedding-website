@@ -25,7 +25,7 @@ const MobileNav = () => {
 
   return (
     <nav className={classes.MobileNav}>
-      <Link to="/"><h1>Korie + Weston</h1></Link>
+      {/* <Link to="/"><h3>Korie + Weston</h3></Link> */}
       {open ? closeHamburger : hamburgerIcon}
       {open && <NavLinks isMobile={true} closeMobileNav={closeMobileNav} />}
     </nav>

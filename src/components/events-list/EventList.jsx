@@ -1,14 +1,13 @@
 import React from 'react'
-import NavBar from './NavBar/NavBar'
+import NavBar from '../NavBar/NavBar'
+import classes from './EventList.module.css'
 
 const EventList = () => {
   return (
     <div>
     <NavBar />
     <div className="Container">
-      <section>
-        <h1>Order of Events</h1>
-      </section>
+      <h1 className={classes.EventsTitle}>Order of Events</h1>
       <main>
         <table>
           <tr>

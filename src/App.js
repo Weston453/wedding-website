@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HeroPage from './components/HeroPage';
-import Welcome from './components/Welcome';
-import EventList from './components/EventList';
-import MenuMain from './components/MenuMain';
-import CoctailHour from './components/Menu/CoctailHour';
+import Welcome from './components/welcome/Welcome';
+import EventList from './components/events-list/EventList';
+import MenuMain from './components/Menu/MenuMain';
+import CocktailHour from './components/Menu/CocktailHour';
 import OpenBar from './components/Menu/OpenBar';
 import Dinner from './components/Menu/Dinner';
 import DessertSnacks from './components/Menu/DessertSnacks';
@@ -19,7 +19,7 @@ function App() {
         <Route path='/welcome' element={<Welcome />} />
         <Route path='/eventList' element={<EventList />} />
         <Route path='/menuMain' element={<MenuMain />} />
-        <Route path='/coctailHour' element={<CoctailHour />} />
+        <Route path='/cocktailHour' element={<CocktailHour />} />
         <Route path='/openBar' element={<OpenBar />} />
         <Route path='/dinner' element={<Dinner />} />
         <Route path='/dessertSnacks' element={<DessertSnacks />} />

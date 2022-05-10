@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const CoctailHour = () => {
+const CocktailHour = () => {
   return (
     <div className="whole-page">
       <section>
@@ -41,4 +41,4 @@ const CoctailHour = () => {
   )
 }
 
-export default CoctailHour
+export default CocktailHour

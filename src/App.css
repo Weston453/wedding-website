@@ -1,95 +1,54 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Brittany Signature';
+  src: url('components/fonts/BrittanySignatureRegular.woff') format ('woff');
+  font-weight: 200;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'Avenir LT Pro';
+    src: url('components/fonts/AvenirLTPro-Light.woff');
+    font-weight: 300;
+    font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* 
-body {
-  background: url(./components/images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50%;
-} */
-/* 
-.whole-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-} */
-
-/* .hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-} */
-/* 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
 
 * {
+  font-family: 'Avenir LT Pro';
   margin: 0;
   padding: 0;
 }
 
+h1, h2 {
+  font-family: 'Brittany Signature';
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+/* a {
+  color: black; 
+  text-decoration: underline 2px white solid;
+  text-underline-offset: 15px;
+} */
+
+/* a:hover {
+  color: white;
+} */
+
 .Container {
-  /* background: url(./components/images/background.jpg); */
-  /* background-repeat: no-repeat; */
+  background-image: url(./components/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background: red; */
 }
 
 .Whos-Who {
-  /* background: url(./components/images/background.jpg); */
-  /* background-repeat: no-repeat; */
-  /* margin-top: 20px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -103,17 +62,18 @@ main {
 }
 
 button {
-  background: skyblue;
-  color: white;
-  margin-top: 30%;
+  background: transparent;
+  margin-top: 70%;
   padding: .3rem;
   border: none;
-  width: 5rem;
-  /* border: solid white .1rem; */
+  width: 6rem;
+  height: 2rem;
+  border: solid white .1rem;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 button:hover {
-  color: black;
+  color: white;
 }

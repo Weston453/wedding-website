@@ -1,0 +1,23 @@
+.MenuTitle {
+    position: absolute;
+    top: .5rem;
+}
+
+/* .title {
+    margin-top: 1.75rem;
+    font-size: 2rem;
+} */
+
+.title {
+    line-height: 2;
+}
+
+.menuLink {
+    color: black; 
+    text-decoration: underline 2px white solid;
+    text-underline-offset: 1.5rem;
+}
+  
+.menuLink:hover {
+    color: white;
+}
