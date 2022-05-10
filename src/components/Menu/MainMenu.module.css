@@ -1,23 +1,28 @@
 .MenuTitle {
-    position: absolute;
+    position: fixed;
     top: .5rem;
+    z-index: 1;
 }
 
-/* .title {
-    margin-top: 1.75rem;
-    font-size: 2rem;
-} */
-
 .title {
-    line-height: 2;
+    font-size: 2rem;
+    line-height: 2.25;
+    font-family: 'Brittany Signature';
 }
 
 .menuLink {
+    font-family: 'Brittany Signature';
     color: black; 
     text-decoration: underline 2px white solid;
-    text-underline-offset: 1.5rem;
+    text-underline-offset: .75rem;
 }
-  
+
 .menuLink:hover {
     color: white;
+}
+
+@media (min-width: 990px) {
+    .MenuTitle {
+        display: none;
+    }
 }

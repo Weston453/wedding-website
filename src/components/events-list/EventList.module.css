@@ -1,4 +1,17 @@
 .EventsTitle {
     position: absolute;
     top: .5rem;
+    z-index: 1;
+}
+
+img {
+    height: 2.5rem;
+}
+
+
+
+@media (min-width: 990px) {
+    .EventsTitle {
+        display: none;
+    }
 }

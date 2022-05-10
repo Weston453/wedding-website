@@ -8,7 +8,7 @@ import CocktailHour from './components/Menu/CocktailHour';
 import OpenBar from './components/Menu/OpenBar';
 import Dinner from './components/Menu/Dinner';
 import DessertSnacks from './components/Menu/DessertSnacks';
-import WhosWho from './components/WhosWho';
+import WhosWho from './components/whos-who/WhosWho';
 import Seating from './components/Seating';
 
 function App() {
