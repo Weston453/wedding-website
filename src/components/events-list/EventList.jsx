@@ -19,58 +19,58 @@ const EventList = () => {
       <main>
         <table>
           <tr>
-            <td>Ceremony</td>
+            <td className={classes.EventItem}>Ceremony</td>
             <td>3 : 30 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={Rings} alt="Rings" />
             </td>
           </tr>
           <tr>
-            <td>Cocktail Hour</td>
+            <td className={classes.EventItem}>Cocktail Hour</td>
             <td>4 : 00 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={CocktailHour} alt="CocktailHour" />
             </td>
           </tr>
           <tr>
-            <td>Dinner</td>
+            <td className={classes.EventItem}>Dinner</td>
             <td>5 : 30 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={Dinner} alt="Dinner" />
             </td>
           </tr>
           <tr>
-            <td>Speeches</td>
+            <td className={classes.EventItem}>Speeches</td>
             <td>6 : 00 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={Speeches} alt="Speeches" />
             </td>
           </tr>
           <tr>
-            <td>First Dance</td>
+            <td className={classes.EventItem}>First Dance</td>
             <td>7 : 00 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={FirstDance} alt="First Dance" />
             </td>
           </tr>
           <tr>
-            <td>Cake Cutting</td>
+            <td className={classes.EventItem}>Cake Cutting</td>
             <td>7 : 45 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={CakeCutting} alt="Cake Cutting" />
             </td>
           </tr>
           <tr>
-            <td>Late Night Snacks</td>
+            <td className={classes.EventItem}>Late Night Snacks</td>
             <td>9 : 00 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={Snacks} alt="Snacks" />
             </td>
           </tr>
           <tr>
-            <td>Last Dance</td>
+            <td className={classes.EventItem}>Last Dance</td>
             <td>9 : 55 PM</td>
-            <td>
+            <td className={classes.image}>
               <img src={LastDance} alt="Last Dance" />
             </td>
           </tr>
