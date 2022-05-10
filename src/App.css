@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'Brittany Signature';
+  src: url('components/fonts/BrittanySignatureRegular.ttf') format ('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
     font-family: 'Avenir LT Pro';
     src: url('components/fonts/AvenirLTPro-Light.woff');
     font-weight: 300;
