@@ -6,6 +6,7 @@ import classes from './OpenBar.module.css'
 const OpenBar = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className="Container">
         <h1  className={classes.CocktailsTitle}>Open Bar</h1>

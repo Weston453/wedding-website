@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import NavBar from '../../NavBar/NavBar'
 import classes from './Cocktails.module.css'
 
 const CocktailHour = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className="Container">
         <h1 className={classes.CocktailsTitle}>Cocktail Hour</h1>

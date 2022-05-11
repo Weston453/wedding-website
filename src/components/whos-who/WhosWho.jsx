@@ -7,6 +7,7 @@ import Bride from '../images/bride.png'
 const WhosWho = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className="Container">
         <h1 className={classes.WhosWhoTitle}>Who's Who</h1>

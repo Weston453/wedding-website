@@ -6,6 +6,7 @@ import classes from './Dinner.module.css'
 const Dinner = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className="Container">
         <h1 className={classes.CocktailsTitle}>Dinner</h1>

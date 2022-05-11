@@ -6,6 +6,7 @@ import classes from './MainMenu.module.css'
 const MenuMain = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className="Container">
           <h1 className={classes.MenuTitle}>Menu</h1>
