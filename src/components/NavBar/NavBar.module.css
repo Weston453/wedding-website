@@ -40,22 +40,22 @@
         text-decoration: none;
         margin: 0;
     }
-
+    
     .NavBar .MobileNav h1 {
         margin-left: 1rem;
     }
-
+    
     .NavBar .MobileNav {
         display: flex;
         align-items: center;
     }
-
+    
     .NavBar .MobileNav .Hamburger{
         position: absolute;
         right: .5%;
         cursor: pointer;
     }
-
+    
     .NavBar .MobileNav .Hamburger:hover{
         color: skyblue;
     }
@@ -80,8 +80,7 @@
 
 @media (max-width: 360px) {
     .NavBar {
-        /* padding: 0 2%; */
-        justify-content:flex-start;
+        justify-content: flex-start;
     }
     
     .NavBar .MobileNav .Hamburger{
