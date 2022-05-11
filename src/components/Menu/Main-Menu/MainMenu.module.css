@@ -30,7 +30,6 @@
 @media (max-width: 990px) {
     .menuLink {
         font-family: 'Brittany Signature';
-        color: black; 
         text-decoration: underline 2px white solid;
         text-underline-offset: .75rem;
     }

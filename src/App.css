@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Brittany Signature';
-  src: url('components/fonts/BrittanySignatureRegular.woff') format ('woff');
+  src: url('components/fonts/BrittanySignatureRegular.woff');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Brittany Signature';
-  src: url('components/fonts/BrittanySignatureRegular.ttf') format ('woff');
+  src: url('components/fonts/BrittanySignatureRegular.ttf');
   font-weight: 200;
   font-style: normal;
 }

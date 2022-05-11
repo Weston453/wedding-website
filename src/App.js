@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HeroPage from './components/HeroPage';
 import Welcome from './components/welcome/Welcome';
 import EventList from './components/events-list/EventList';
-import MenuMain from './components/Menu/MenuMain';
-import CocktailHour from './components/Menu/CocktailHour';
-import OpenBar from './components/Menu/OpenBar';
-import Dinner from './components/Menu/Dinner';
-import DessertSnacks from './components/Menu/DessertSnacks';
+import MenuMain from './components/Menu/Main-Menu/MenuMain';
+import CocktailHour from './components/Menu/cocktails/CocktailHour';
+import OpenBar from './components/Menu/open-bar/OpenBar';
+import Dinner from './components/Menu/dinner/Dinner';
+import DessertSnacks from './components/Menu/dessert-snacks/DessertSnacks';
 import WhosWho from './components/whos-who/WhosWho';
 import Seating from './components/Seating';
 
