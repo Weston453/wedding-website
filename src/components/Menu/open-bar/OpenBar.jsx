@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import NavBar from '../../NavBar/NavBar'
 import classes from './OpenBar.module.css'
 
@@ -24,6 +23,7 @@ const OpenBar = () => {
             <h3 className={classes.SubMenuH3}>Brut Prestige</h3>
             <p className={classes.SubMenuP}>mumm napa, california</p>
           </div>
+          <hr></hr>
           <div>
             <h2>Spirits</h2>
             <h3 className={classes.SubMenuH3}>Vodka</h3>
@@ -39,6 +39,7 @@ const OpenBar = () => {
             <h3 className={classes.SubMenuH3}>Scotch</h3>
             <p className={classes.SubMenuP}>johnnie walker black, chivas regal, glenlivet 12</p>
           </div>
+          <hr></hr>
           <div className={classes.SubMenuLastDiv}>
             <h2>Beer</h2>
             <h3 className={classes.SubMenuH3}>TBD</h3>

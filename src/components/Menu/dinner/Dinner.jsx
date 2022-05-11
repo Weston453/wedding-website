@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import NavBar from '../../NavBar/NavBar'
 import classes from './Dinner.module.css'
 
@@ -18,6 +17,7 @@ const Dinner = () => {
             <h3 className={classes.SubMenuH3}>West Shore Salad</h3>
             <p className={classes.SubMenuP}>baby mixed greens, cucumber, tomato, carrots, champagne dressing</p>
           </div>
+          <hr></hr>
           <div className={classes.SubMenuLastDiv}>
             <h2>
               Main Course

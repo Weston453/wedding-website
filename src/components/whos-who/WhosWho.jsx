@@ -12,7 +12,7 @@ const WhosWho = () => {
       <div className="Container">
         <h1 className={classes.WhosWhoTitle}>Who's Who</h1>
         <main className={classes.WhosWhoMain}>
-          <div>
+          <div className={classes.WhosWhoFirstDiv}>
             <h1>
               Groom's Side
             </h1>
@@ -30,6 +30,7 @@ const WhosWho = () => {
             <h2 className={classes.WhosWhoH2}>Emma Isheim</h2>
             <p className={classes.WhosWhoP}>Bridesmaid</p>
           </div>
+          <hr></hr>
           <div className={classes.WhosWhoLastDiv}>
             <h1>
               Bride's Side

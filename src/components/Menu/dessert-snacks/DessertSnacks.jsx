@@ -19,6 +19,7 @@ const DessertSnacks = () => {
             <h3 className={classes.SubMenuH3}>Dessert Bar</h3>
             <p className={classes.SubMenuP}>brownies, hand pies (berry/apple), macarons (vanilla/raspberry)</p>
           </div>
+          <hr></hr>
           <div className={classes.SubMenuLastDiv}>
             <h2>
               Late Night Snacks

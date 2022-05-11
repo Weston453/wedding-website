@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const HeroPage = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className='Container'>
           <h1>Welcome to</h1>

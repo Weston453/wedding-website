@@ -10,31 +10,32 @@ const MenuMain = () => {
       <NavBar />
       <div className="Container">
           <h1 className={classes.MenuTitle}>Menu</h1>
-        <br/>
-        <h1 className={classes.title}>
-          <Link 
-            className={classes.menuLink} 
-            to="/CocktailHour"
-          >Cocktail Hour</Link>
-        </h1>
-        <h1 className={classes.title}>
-          <Link 
-            className={classes.menuLink} 
-            to="/OpenBar"
-          >Open Bar</Link>
-        </h1>
-        <h1 className={classes.title}>
-          <Link 
-            className={classes.menuLink} 
-            to="/Dinner"
-            >Dinner</Link>
-        </h1>
-        <h1 className={classes.title} >
-          <Link 
-            className={classes.menuLink} 
-            to="/DessertSnacks"
-            >Dessert + Late Night Snacks</Link>
-        </h1>
+        <div className={classes.LinksContainer}>
+          <h1 className={classes.title}>
+            <Link 
+              className={classes.menuLink} 
+              to="/CocktailHour"
+            >Cocktail Hour</Link>
+          </h1>
+          <h1 className={classes.title}>
+            <Link 
+              className={classes.menuLink} 
+              to="/OpenBar"
+            >Open Bar</Link>
+          </h1>
+          <h1 className={classes.title}>
+            <Link 
+              className={classes.menuLink} 
+              to="/Dinner"
+              >Dinner</Link>
+          </h1>
+          <h1 className={classes.title} >
+            <Link 
+              className={classes.menuLink} 
+              to="/DessertSnacks"
+              >Dessert + Late Night Snacks</Link>
+          </h1>
+        </div>
       </div>
     </div>
   )

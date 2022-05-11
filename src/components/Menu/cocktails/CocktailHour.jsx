@@ -21,6 +21,7 @@ const CocktailHour = () => {
             <h3 className={classes.SubMenuH3}>Strawberry Jalapeño Margarita</h3>
             <p className={classes.SubMenuP}>frida kahlo blanco, lime, strawberry, jalapeño agave, salt rim</p>
           </div>
+          <hr></hr>
           <div className={classes.SubMenuLastDiv}>
             <h2>
               Passed Appetizers
