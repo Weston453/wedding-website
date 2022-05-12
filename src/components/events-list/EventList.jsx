@@ -20,35 +20,35 @@ const EventList = () => {
         <main className={classes.eventsMain}>
           <section>
             <img src={Rings} alt="Rings" />
-            <h3>Ceremony 3 : 30 PM</h3>
+            <h3>Ceremony &ensp;-&ensp; 3 : 30 PM</h3>
           </section>
           <section>
             <img src={CocktailHour} alt="CocktailHour" />
-            <h3>Cocktails 4 : 00 PM</h3>
+            <h3>Cocktails &ensp;-&ensp; 4 : 00 PM</h3>
           </section>
           <section>
             <img src={Dinner} alt="Dinner" />
-            <h3>Dinner 6 : 00 PM</h3>
+            <h3>Dinner &ensp;-&ensp; 6 : 00 PM</h3>
           </section>
           <section>
             <img src={Speeches} alt="Speeches" />
-            <h3>Speeches 7 : 00 PM</h3>
+            <h3>Speeches &ensp;-&ensp; 7 : 00 PM</h3>
           </section>
           <section>
             <img src={FirstDance} alt="First Dance" />
-            <h3>First Dance 7 : 25 PM</h3>
+            <h3>First Dance &ensp;-&ensp; 7 : 25 PM</h3>
           </section>
           <section>
             <img src={CakeCutting} alt="Cake Cutting" />
-            <h3>Cake 8 : 00 PM</h3>
+            <h3>Cake &ensp;-&ensp; 8 : 00 PM</h3>
           </section>
           <section>
             <img src={Snacks} alt="Snacks" />
-            <h3>Snacks 9 : 00 PM</h3>
+            <h3>Snacks &ensp;-&ensp; 9 : 00 PM</h3>
           </section>
           <section>
             <img src={LastDance} alt="Last Dance" />
-            <h3>Last Dance 9 : 55 PM</h3>
+            <h3>Last Dance &ensp;-&ensp; 9 : 55 PM</h3>
           </section>
         </main>
         <footer className={classes.footer}>
@@ -58,7 +58,7 @@ const EventList = () => {
           <h3 className={classes.footerText}>
             Korie + Weston
           </h3>
-          <h3 className={classes.footerText}>
+          <h3 className={classes.footerTextL}>
             05 .29. 22
           </h3>
         </footer>
