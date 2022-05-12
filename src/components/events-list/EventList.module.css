@@ -17,11 +17,14 @@ img {
     padding-right: 1rem;
 }
 
-table {
-    margin-top: 5rem;
+/* table {
     width: 85vw;
     border-spacing: .1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1r;
+} */
+
+.eventsMain {
+    margin-top: 5rem;
 }
 
 td {
@@ -32,6 +35,16 @@ td {
 
 tr {
     text-align: right;
+}
+
+.footerText {
+    font-size: 1.25rem;
+    font-family: 'Avenir LT Pro';
+    font-weight: 300;
+}
+
+.footer {
+    margin-top: 2rem;
 }
 
 @media (min-width: 990px) {

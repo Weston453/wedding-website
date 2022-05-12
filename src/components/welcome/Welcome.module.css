@@ -4,18 +4,23 @@
     z-index: 1;
 }
 
-.welcomeUnplugged {
+.welcomeSubTitle{
     font-size: 2rem;
-    margin: 1rem;
+    margin-top: 1.8rem;
     padding-top: 1rem;
     font-weight: 300;
+}
+
+.KW {
+    margin-top: 38.5rem;
 }
 
 .welcomePOne {
     font-family: 'Avenir LT Pro';
     padding: 1.25rem;
     font-size: 1.25rem;
-    margin-top: 5rem;
+    margin-top: .3rem;
+    margin-bottom: 1.5rem;
 }
 
 .welcomePTwo {
@@ -23,13 +28,21 @@
     padding: 1.25rem;
     font-size: 1.25rem;
     margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.welcomePThree {
+    font-family: 'Avenir LT Pro';
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 hr {
     border-top: 2px solid white;
     width: 70vw;
     margin: auto;
-    margin-top: .25rem;
 }
 
 @media (min-width: 990px) {
