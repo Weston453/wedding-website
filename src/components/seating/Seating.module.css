@@ -1,0 +1,54 @@
+.WhosWhoTitle {
+    position: fixed;
+    top: .5rem;
+    z-index: 1;
+}
+
+.groomTitle {
+    margin-bottom: 2rem;
+}
+
+.brideTitle {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.BAndGIcons {
+    height: 5rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
+}
+
+.seatingMain {
+    margin-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+.WhosWhoH2 {
+    font-size: 1.75rem;
+}
+
+.WhosWhoP {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.WhosWhoPLast {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.WhosWhoFirstDiv {
+    margin-bottom: 2rem;
+}
+
+.WhosWhoLastDiv {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+@media (min-width: 990px) {
+    .WhosWhoTitle {
+        display: none;
+    }
+}

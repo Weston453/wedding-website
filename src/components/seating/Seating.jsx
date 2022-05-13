@@ -1,16 +1,15 @@
 import React from 'react'
-import NavBar from './NavBar/NavBar'
+import NavBar from '../NavBar/NavBar'
+import classes from './Seating.module.css'
 
 const Seating = () => {
   return (
     <div>
+      <div className='bg'></div>
       <NavBar />
       <div className='Container'>
-        <section>
-          <h1>Seating Chart</h1>
-          <div>hamburger</div>
-        </section>
-        <main>
+        <h1 className={classes.WhosWhoTitle}>Seating Chart</h1>
+        <main className={classes.seatingMain}>
           <div>
             <h2>
               Where am I sitting?
@@ -23,7 +22,7 @@ const Seating = () => {
             </h3>
           </div>
           <div>
-            <input>Enter your last name here</input>
+            {/* <input>Enter your last name here</input> */}
             <button>Find table</button>
           </div>
         </main>

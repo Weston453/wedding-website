@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import classes from './Welcome.module.css'
+import Proposal from '../images/proposal.jpg'
 
 const Welcome = () => {
   return (
@@ -8,6 +9,7 @@ const Welcome = () => {
       <div className='bg'></div>
       <NavBar />
       <div className="Container">
+      <img className={classes.proposal} src={Proposal} alt="Proposal" />           
         <h1 className={classes.welcomeTitle}>K + W</h1>
         <main className={classes.welcomeMain}>
           <h1>Welcome</h1>

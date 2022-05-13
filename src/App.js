@@ -9,7 +9,7 @@ import OpenBar from './components/Menu/open-bar/OpenBar';
 import Dinner from './components/Menu/dinner/Dinner';
 import DessertSnacks from './components/Menu/dessert-snacks/DessertSnacks';
 import WhosWho from './components/whos-who/WhosWho';
-import Seating from './components/Seating';
+import Seating from './components/seating/Seating';
 
 function App() {
   return (

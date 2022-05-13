@@ -1,18 +1,24 @@
 .welcomeTitle {
-    position: absolute;
+    position: fixed;
     top: .5rem;
     z-index: 1;
 }
 
-.welcomeSubTitle{
+.welcomeSubTitle {
     font-size: 2rem;
     margin-top: 1.8rem;
     padding-top: 1rem;
     font-weight: 300;
 }
 
+.proposal {
+    margin-top: 6rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
 .welcomeMain {
-    margin-top: 7rem;
+    margin-top: 2rem;
     padding-bottom: 1rem;
 }
 
