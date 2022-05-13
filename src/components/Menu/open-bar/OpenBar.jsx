@@ -15,15 +15,15 @@ const OpenBar = () => {
               Wine
             </h2>
             <h3 className={classes.SubMenuH3}>Pinot Grigio</h3>
-            <p className={classes.SubMenuP}>attems, italy</p>
+            <p className={classes.SubMenuP}>santa margarita, italy</p>
             <h3 className={classes.SubMenuH3}>Chardonnay</h3>
-            <p className={classes.SubMenuP}>davis bynum, california</p>
+            <p className={classes.SubMenuP}>sonoma-cutrer russian river ranches, california</p>
             <h3 className={classes.SubMenuH3}>Pinot Noir</h3>
-            <p className={classes.SubMenuP}>stoller family estate, oregon</p>
+            <p className={classes.SubMenuP}>meiomi, california</p>
             <h3 className={classes.SubMenuH3}>Cabernet</h3>
             <p className={classes.SubMenuP}>oberon, california</p>
-            <h3 className={classes.SubMenuH3}>Brut Prestige</h3>
-            <p className={classes.SubMenuPLast}>mumm napa, california</p>
+            <h3 className={classes.SubMenuH3}>Brut Prosecco</h3>
+            <p className={classes.SubMenuPLast}>adami garbel, italy</p>
           </div>
           <hr></hr>
           <div>
@@ -48,12 +48,15 @@ const OpenBar = () => {
             <h2 className={classes.beer}>
               Beer
             </h2>
-            <h3 className={classes.SubMenuH3}>TBD</h3>
-            <h3 className={classes.SubMenuH3}>TBD</h3>
-            <h3 className={classes.SubMenuH3}>TBD</h3>
-            <h3 className={classes.SubMenuH3}>TBD</h3>
-            <h3 className={classes.SubMenuH3}>TBD</h3>
-            <h3 className={classes.SubMenuH3}>TBD</h3>
+            <h3 className={classes.SubMenuH3}>On Draft</h3>
+            <p className={classes.SubMenuBeerP}>fall river - numb numb juicy hazy IPA</p>
+            <p className={classes.SubMenuBeerP}>elysian - space dust IPA</p>
+            <p className={classes.SubMenuBeerP}>alibi ale works - pale ale</p>
+            <p className={classes.SubMenuBeerP}>fiftyfifty - tahoe pilzner</p>
+            <p className={classes.SubMenuBeerP}>the brewer's cabinet - tahoe blonde</p>
+            <p className={classes.SubMenuBeerPLast}>21st amendment - homeward bound</p>
+            <h3 className={classes.SubMenuH3}>Bottles and Cans</h3>
+            <p className={classes.SubMenuBeerP}>see bartender</p>
           </div>
         </main>
       </div>
