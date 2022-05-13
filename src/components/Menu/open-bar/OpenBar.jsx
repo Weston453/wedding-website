@@ -11,7 +11,9 @@ const OpenBar = () => {
         <h1  className={classes.CocktailsTitle}>Open Bar</h1>
         <main className={classes.CocktailsMain}>
           <div>
-            <h2>Wine</h2>
+            <h2 className={classes.wine}>
+              Wine
+            </h2>
             <h3 className={classes.SubMenuH3}>Pinot Grigio</h3>
             <p className={classes.SubMenuP}>attems, italy</p>
             <h3 className={classes.SubMenuH3}>Chardonnay</h3>
@@ -21,11 +23,13 @@ const OpenBar = () => {
             <h3 className={classes.SubMenuH3}>Cabernet</h3>
             <p className={classes.SubMenuP}>oberon, california</p>
             <h3 className={classes.SubMenuH3}>Brut Prestige</h3>
-            <p className={classes.SubMenuP}>mumm napa, california</p>
+            <p className={classes.SubMenuPLast}>mumm napa, california</p>
           </div>
           <hr></hr>
           <div>
-            <h2>Spirits</h2>
+            <h2 className={classes.spirits}>
+              Spirits
+            </h2>
             <h3 className={classes.SubMenuH3}>Vodka</h3>
             <p className={classes.SubMenuP}>tito’s, ketel one</p>
             <h3 className={classes.SubMenuH3}>Rum</h3>
@@ -37,11 +41,13 @@ const OpenBar = () => {
             <h3 className={classes.SubMenuH3}>Whiskey</h3>
             <p className={classes.SubMenuP}>crown royal, jack daniels, jameson, makers mark, buffalo trace, fireball</p>
             <h3 className={classes.SubMenuH3}>Scotch</h3>
-            <p className={classes.SubMenuP}>johnnie walker black, chivas regal, glenlivet 12</p>
+            <p className={classes.SubMenuPLast}>johnnie walker black, chivas regal, glenlivet 12</p>
           </div>
           <hr></hr>
           <div className={classes.SubMenuLastDiv}>
-            <h2>Beer</h2>
+            <h2 className={classes.beer}>
+              Beer
+            </h2>
             <h3 className={classes.SubMenuH3}>TBD</h3>
             <h3 className={classes.SubMenuH3}>TBD</h3>
             <h3 className={classes.SubMenuH3}>TBD</h3>

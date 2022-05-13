@@ -11,7 +11,7 @@ const CocktailHour = () => {
         <h1 className={classes.CocktailsTitle}>Cocktail Hour</h1>
         <main className={classes.CocktailsMain}>
           <div>
-            <h2>
+            <h2 className={classes.passedCocktails}>
               Passed Cocktails
             </h2>
             <h3 className={classes.SubMenuH3}>Rosé All Day</h3>
@@ -19,11 +19,11 @@ const CocktailHour = () => {
             <h3 className={classes.SubMenuH3}>Homewood Mojito</h3>
             <p className={classes.SubMenuP}>bacardi, mint syrup, lime, sparkling soda</p>
             <h3 className={classes.SubMenuH3}>Strawberry Jalapeño Margarita</h3>
-            <p className={classes.SubMenuP}>frida kahlo blanco, lime, strawberry, jalapeño agave, salt rim</p>
+            <p className={classes.SubMenuPLast}>frida kahlo blanco, lime, strawberry, jalapeño agave, salt rim</p>
           </div>
           <hr></hr>
-          <div className={classes.SubMenuLastDiv}>
-            <h2>
+          <div>
+            <h2  className={classes.PassedAppetizers}>
               Passed Appetizers
             </h2>
             <h3 className={classes.SubMenuH3}>Artisan Grilled Cheese</h3>

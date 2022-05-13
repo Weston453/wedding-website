@@ -13,9 +13,7 @@ const WhosWho = () => {
         <h1 className={classes.WhosWhoTitle}>Who's Who</h1>
         <main className={classes.WhosWhoMain}>
           <div className={classes.WhosWhoFirstDiv}>
-            <h1>
-              Groom's Side
-            </h1>
+            <h1 className={classes.groomTitle}>Groom's Side</h1>
             <img className={classes.BAndGIcons} src={Groom} alt="Groom" />           
             <h2 className={classes.WhosWhoH2}>Mike and Cheryl Isheim</h2>
             <p className={classes.WhosWhoP}>Weston's Parents</p>
@@ -28,18 +26,20 @@ const WhosWho = () => {
             <h2 className={classes.WhosWhoH2}>Gabe Cohen</h2>
             <p className={classes.WhosWhoP}>Groomsman</p>
             <h2 className={classes.WhosWhoH2}>Emma Isheim</h2>
-            <p className={classes.WhosWhoP}>Bridesmaid</p>
+            <p className={classes.WhosWhoPLast}>Bridesmaid</p>
           </div>
           <hr></hr>
           <div className={classes.WhosWhoLastDiv}>
-            <h1>
+            <h1 className={classes.brideTitle}>
               Bride's Side
             </h1>
             <img className={classes.BAndGIcons} src={Bride} alt="Bride" />     
             <h2 className={classes.WhosWhoH2}>Ken and Kelly Bayne</h2>
             <p className={classes.WhosWhoP}>Korie's Parents</p>
-            <h2 className={classes.WhosWhoH2}>Rachel Brenneman and <br/> Mark Bensen</h2>
-            <p className={classes.WhosWhoP}>Maid/Man of Honor</p>
+            <h2 className={classes.WhosWhoH2}>Rachel Brenneman</h2>
+            <p className={classes.WhosWhoP}>Maid of Honor</p>
+            <h2 className={classes.WhosWhoH2}>Mark Bensen</h2>
+            <p className={classes.WhosWhoP}>Man of Honor</p>
             <h2 className={classes.WhosWhoH2}>Neha Jwala</h2>
             <p className={classes.WhosWhoP}>Bridesmaid</p>
             <h2 className={classes.WhosWhoH2}>Cortney VanMilligen</h2>

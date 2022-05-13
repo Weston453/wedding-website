@@ -4,26 +4,31 @@
     z-index: 1;
 }
 
-.title {
-    font-size: 2rem;
-    line-height: 2.25;
-    font-family: 'Brittany Signature';
+.mainMenuContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* .LinksContainer {
-
-} */
+.title {
+    font-size: 2rem;
+    line-height: 3;
+    font-family: 'Brittany Signature';
+}
 
 .menuLink {
     font-family: 'Brittany Signature';
     color: black; 
-    text-decoration: underline 2px white solid;
-    text-underline-offset: .75rem;
+    text-decoration: underline 2px #6DC8D5 solid;
+    text-underline-offset: 1.5rem;
 }
 
-.menuLink:hover {
+/* .menuLink:hover {
     color: white;
-}
+} */
 
 @media (min-width: 990px) {
     .MenuTitle {
@@ -34,7 +39,7 @@
 @media (max-width: 990px) {
     .menuLink {
         font-family: 'Brittany Signature';
-        text-decoration: underline 2px white solid;
-        text-underline-offset: .75rem;
+        text-decoration: underline 2px #6DC8D5 solid;
+        text-underline-offset: 1.5rem;
     }
 }

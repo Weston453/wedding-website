@@ -11,17 +11,17 @@ const DessertSnacks = () => {
         <h1 className={classes.CocktailsTitle}>Dessert + Snacks</h1>
         <main className={classes.CocktailsMain}>
           <div>
-            <h2>
+            <h2 className={classes.dessert}>
               Dessert
             </h2>
             <h3 className={classes.SubMenuH3}>Wedding Cake</h3>
             <p className={classes.SubMenuP}>almond cake, almond buttercream, raspberry jam</p>
             <h3 className={classes.SubMenuH3}>Dessert Bar</h3>
-            <p className={classes.SubMenuP}>brownies, hand pies (berry/apple), macarons (vanilla/raspberry)</p>
+            <p className={classes.SubMenuPLast}>brownies, hand pies (berry/apple), macarons (vanilla/raspberry)</p>
           </div>
           <hr></hr>
-          <div className={classes.SubMenuLastDiv}>
-            <h2>
+          <div>
+            <h2  className={classes.snacks}>
               Late Night Snacks
             </h2>
             <h4>After 9pm</h4>

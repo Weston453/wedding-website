@@ -19,35 +19,51 @@ const EventList = () => {
         <h1 className={classes.EventsTitle}>Order of Events</h1>
         <main className={classes.eventsMain}>
           <section>
-            <img src={Rings} alt="Rings" />
+            <img className={classes.eventImage} 
+            src={Rings} alt="Rings" 
+            />
             <h3>Ceremony &ensp;-&ensp; 3 : 30 PM</h3>
           </section>
           <section>
-            <img src={CocktailHour} alt="CocktailHour" />
+            <img className={classes.eventImage} 
+            src={CocktailHour} alt="CocktailHour" 
+            />
             <h3>Cocktails &ensp;-&ensp; 4 : 00 PM</h3>
           </section>
           <section>
-            <img src={Dinner} alt="Dinner" />
+            <img className={classes.eventImage} 
+            src={Dinner} alt="Dinner" 
+            />
             <h3>Dinner &ensp;-&ensp; 6 : 00 PM</h3>
           </section>
           <section>
-            <img src={Speeches} alt="Speeches" />
+            <img className={classes.eventImage} 
+            src={Speeches} alt="Speeches" 
+            />
             <h3>Speeches &ensp;-&ensp; 7 : 00 PM</h3>
           </section>
           <section>
-            <img src={FirstDance} alt="First Dance" />
+            <img className={classes.eventImage} 
+            src={FirstDance} alt="First Dance" 
+            />
             <h3>First Dance &ensp;-&ensp; 7 : 25 PM</h3>
           </section>
           <section>
-            <img src={CakeCutting} alt="Cake Cutting" />
+            <img className={classes.eventImage} 
+            src={CakeCutting} alt="Cake Cutting" 
+            />
             <h3>Cake &ensp;-&ensp; 8 : 00 PM</h3>
           </section>
           <section>
-            <img src={Snacks} alt="Snacks" />
+            <img className={classes.eventImage} 
+            src={Snacks} alt="Snacks" 
+            />
             <h3>Snacks &ensp;-&ensp; 9 : 00 PM</h3>
           </section>
           <section>
-            <img src={LastDance} alt="Last Dance" />
+            <img className={classes.eventImage} 
+            src={LastDance} alt="Last Dance" 
+            />
             <h3>Last Dance &ensp;-&ensp; 9 : 55 PM</h3>
           </section>
         </main>
@@ -55,7 +71,7 @@ const EventList = () => {
           <h3 className={classes.footerText}>
             Thank you for joining us!
           </h3>
-          <h3 className={classes.footerText}>
+          <h3>
             Korie + Weston
           </h3>
           <h3 className={classes.footerTextL}>

@@ -2,31 +2,49 @@
     position: fixed;
     top: .5rem;
     z-index: 1;
+    font-family: 'Brittany Signature';
+    font-weight: 300;
 }
 
 .CocktailsMain {
-    position: absolute;
-    top: 9rem;
-    margin-bottom: 10rem;
-    text-align: center;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
 }
 
-h2 {
+.passedCocktails {
     font-size: 1.75rem;
     line-height: 3;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.PassedAppetizers {
+    font-size: 1.75rem;
+    line-height: 3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .SubMenuH3 {
     font-size: 1.25rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
 }
 
 .SubMenuP {
     font-size: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.SubMenuLastDiv {
-    margin-bottom: 4rem;
+.SubMenuPLast {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    font-style: italic;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @media (min-width: 990px) {

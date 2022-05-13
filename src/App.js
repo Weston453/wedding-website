@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HeroPage from './components/HeroPage';
+import HeroPage from './components/hero-page/HeroPage';
 import Welcome from './components/welcome/Welcome';
 import EventList from './components/events-list/EventList';
 import MenuMain from './components/Menu/Main-Menu/MenuMain';

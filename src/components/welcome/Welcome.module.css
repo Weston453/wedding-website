@@ -11,11 +11,12 @@
     font-weight: 300;
 }
 
-.KW {
-    margin-top: 38.5rem;
+.welcomeMain {
+    margin-top: 7rem;
+    padding-bottom: 1rem;
 }
 
-.welcomePOne {
+.welcomeP {
     font-family: 'Avenir LT Pro';
     padding: 1.25rem;
     font-size: 1.25rem;
@@ -23,24 +24,8 @@
     margin-bottom: 1.5rem;
 }
 
-.welcomePTwo {
-    font-family: 'Avenir LT Pro';
-    padding: 1.25rem;
-    font-size: 1.25rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.welcomePThree {
-    font-family: 'Avenir LT Pro';
-    padding: 1.25rem;
-    font-size: 1.25rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 hr {
-    border-top: 2px solid white;
+    border-top: 2px solid #6DC8D5;
     width: 70vw;
     margin: auto;
 }
