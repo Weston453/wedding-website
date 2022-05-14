@@ -22,7 +22,7 @@ const Welcome = () => {
             Unplugged Ceremony
           </h1>
           <p className={classes.welcomeP}>  
-            We really want to see your lovely faces – not your devices. Please silence and put away your cell phones and other devices during our ceremony so we can all enjoy this special moment free of any distractions. Don’t worry, we have a wonderful photography/videography team who will capture the ceremony, and we will happily share the best pictures and videos later on. 
+            We want to see your lovely faces – not your devices. Please silence and put away your cell phones and other electronics during our ceremony so we can all enjoy this special moment free of distractions. Don’t worry, we have a wonderful photography/videography team who will capture the ceremony and happily share the best pictures and videos with you later on. 
           </p>
           <hr></hr>
           <h1 className={classes.welcomeSubTitle}>

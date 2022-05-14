@@ -1,5 +1,5 @@
-/* .MenuNavBar {
-    background-color: blue;
+.MenuNavBar {
+    background-color: white;
     height: 75px;
     width: 100%;
     display: flex;
@@ -8,9 +8,9 @@
     position: fixed;
     z-index: 1;
     opacity: 93%;
-} */
+}
 
-/* .MenuNavBar a {
+.MenuNavBar a {
     font-family: 'Avenir LT Pro';
     text-decoration: none;
     padding: 0;
@@ -20,7 +20,7 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
-} */
+}
 
 .link {
     font-family: 'Avenir LT Pro';
@@ -40,6 +40,13 @@
 
 .MobileMenuNav {
     display: none;
+}
+
+.MobileMenuNav .backArrow{
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+    top: 25%;
 }
 
 @media (max-width: 990px) {
@@ -68,11 +75,7 @@
         cursor: pointer;
     }
     
-    /* .NavBar .MobileNav .Hamburger:hover{
-        color: skyblue;
-    } */
-    
-    nav ul {
+    .MenuNavBar nav ul {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -91,9 +94,9 @@
 }
 
 @media (max-width: 360px) {
-    {
+    /* {
         justify-content: flex-start;
-    }
+    } */
     
     .MobileMenuNav .MenuHamburger{
         position: absolute;

@@ -1,7 +1,7 @@
 import React from 'react'
 // import NavBar from '../../NavBar/NavBar'
 import classes from './DessertSnacks.module.css'
-import MenuNavBar from '../../NavBar/menu-nav/MobileMenuNav'
+import MenuNavBar from '../../NavBar/menu-nav/MenuNavBar'
 
 const DessertSnacks = () => {
   return (
@@ -9,7 +9,7 @@ const DessertSnacks = () => {
       <div className='bg'></div>
       <MenuNavBar />
       <div className="Container">
-        <h1 className={classes.CocktailsTitle}>Dessert + Snacks</h1>
+        <h1 className={classes.CocktailsTitle}>D + S</h1>
         <main className={classes.CocktailsMain}>
           <div>
             <h2 className={classes.dessert}>
@@ -25,7 +25,7 @@ const DessertSnacks = () => {
             <h2  className={classes.snacks}>
               Late Night Snacks
             </h2>
-            <h4>After 9pm</h4>
+            <h3 className={classes.afterHoursFun}> - after 9pm - </h3>
             <h3 className={classes.SubMenuH3}>Local Angus Beef Sliders</h3>
             <p className={classes.SubMenuP}>do you really care what’s in it at this point?</p>
             <h3 className={classes.SubMenuH3}>Cheese Quesadilla</h3>

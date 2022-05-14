@@ -18,9 +18,13 @@
 
 .snacks {
     font-size: 1.75rem;
-    line-height: 3;
+    line-height: 2.5;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.afterHoursFun {
+    margin-bottom: 2rem;
 }
 
 .SubMenuH3 {

@@ -75,7 +75,7 @@ const EventList = () => {
             Korie + Weston
           </h3>
           <h3 className={classes.footerTextL}>
-            05 .29. 22
+            05 . 29 . 22
           </h3>
         </footer>
       </div>

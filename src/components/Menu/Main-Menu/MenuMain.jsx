@@ -33,7 +33,7 @@ const MenuMain = () => {
             <Link 
               className={classes.menuLink} 
               to="/DessertSnacks"
-              >Dessert + Late Night Snacks</Link>
+              >Desserts + Late Night Snacks</Link>
           </h1>
         </div>
       </div>

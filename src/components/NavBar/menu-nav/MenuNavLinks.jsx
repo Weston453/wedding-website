@@ -6,11 +6,11 @@ const MenuNavLinks = ({isMobileMenu, closeMobileMenuNav}) => {
   return (
     <nav>
         <ul>
-            <Link className={classes.link} to="/menuMain">Main Menu</Link>
+            <Link className={classes.link} to="/menuMain">Menu</Link>
             <Link className={classes.link} to="/cocktailHour">Cocktail Hour</Link>
             <Link className={classes.link} to="/openBar">Open Bar</Link>
             <Link className={classes.link} to="/dinner">Dinner</Link>
-            <Link className={classes.link} to="/dessertSnacks">Dessert + Late Night Snacks</Link>
+            <Link className={classes.link} to="/dessertSnacks">Desserts + Late Night Snacks</Link>
         </ul>
     </nav>
   )

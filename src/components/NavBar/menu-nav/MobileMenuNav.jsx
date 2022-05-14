@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import classes from './MenuNavBar.module.css';
 import MenuNavLinks from './MenuNavLinks'
+import { Link } from 'react-router-dom'
+import { BsArrowLeft } from 'react-icons/bs'
 import { FiMenu } from 'react-icons/fi'
 import { VscChromeClose } from 'react-icons/vsc'
 
@@ -19,11 +21,15 @@ const MobileMenuNav = () => {
                         onClick={() => setOpenMenu(!openMenu)}
                         />
 
+  const backArrow = <Link to="/menuMain">
+                      <BsArrowLeft size="40px" className={classes.backArrow} />
+                    </Link>
+
   const closeMobileMenuNav = () => setOpenMenu(false)
 
   return (
     <nav className={classes.MobileMenuNav}>
-      <h1 className={classes.test}>test</h1>
+      {backArrow}
       {openMenu ? closeMenuHamburger : hamburgerMenuIcon}
       {openMenu && <MenuNavLinks isMobileMenu={true} closeMobileMenuNav={closeMobileMenuNav} />}
     </nav>
