@@ -1,12 +1,13 @@
 import React from 'react'
-import NavBar from '../../NavBar/NavBar'
+// import NavBar from '../../NavBar/NavBar'
 import classes from './OpenBar.module.css'
+import MenuNavBar from '../../NavBar/menu-nav/MobileMenuNav'
 
 const OpenBar = () => {
   return (
     <div>
       <div className='bg'></div>
-      <NavBar />
+      <MenuNavBar />
       <div className="Container">
         <h1  className={classes.CocktailsTitle}>Open Bar</h1>
         <main className={classes.CocktailsMain}>

@@ -1,0 +1,155 @@
+/* .MenuNavBar {
+    background-color: blue;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    opacity: 93%;
+} */
+
+/* .MenuNavBar a {
+    font-family: 'Avenir LT Pro';
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    margin-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+} */
+
+.link {
+    font-family: 'Avenir LT Pro';
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    margin-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+/* .MenuNavBar .MobileMenuNav {
+    display: none;
+} */
+
+.MobileMenuNav {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .MenuNav {
+        display: none;
+    }
+    
+    .MobileMenuNav a {
+        color: black;
+        text-decoration: none;
+        margin: 0;
+    }
+    
+    .MobileMenuNav h1 {
+        margin-left: 1rem;
+    }
+    
+    .MobileMenuNav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .MobileMenuNav .MenuHamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+    
+    /* .NavBar .MobileNav .Hamburger:hover{
+        color: skyblue;
+    } */
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 2%;
+        /* border-bottom: 1px solid; */
+    }
+    
+    /* .NavBar a:hover {
+        color: skyblue;
+    } */
+}
+
+@media (max-width: 360px) {
+    {
+        justify-content: flex-start;
+    }
+    
+    .MobileMenuNav .MenuHamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+}
+
+/* @media (max-width: 990px) {
+    .MenuNavBar .MenuNav {
+        display: none;
+    }
+    
+    .MenuNavBar .MobileMenuNav a {
+        color: black;
+        text-decoration: none;
+        margin: 0;
+    }
+    
+    .MenuNavBar .MobileMenuNav h1 {
+        margin-left: 1rem;
+    }
+    
+    .MenuNavBar .MobileMenuNav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .MenuNavBar .MobileMenuNav .MenuHamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+    
+    .MenuNavBar nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 2%;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .MenuNavBar {
+        justify-content: flex-start;
+    }
+    
+    .MenuNavBar .MobileMenuNav .MenuHamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+} */

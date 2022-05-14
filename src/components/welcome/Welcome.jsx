@@ -29,7 +29,7 @@ const Welcome = () => {
             Tag us!
           </h1>
           <p className={classes.welcomeP}>  
-            If you capture any moments of today's events and post them on social media, we would love to see them! Please tag #KorieWestonWedding in your post.
+            If you capture any moments of today's events and post them on social media, we would love to see them! Please tag <strong>#KorieWestonWedding</strong> in your post.
           </p>
         </main>
       </div>

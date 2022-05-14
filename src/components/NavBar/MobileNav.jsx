@@ -3,7 +3,6 @@ import classes from './NavBar.module.css';
 import NavLinks from './NavLinks'
 import { FiMenu } from 'react-icons/fi'
 import { VscChromeClose } from 'react-icons/vsc'
-import { Link } from 'react-router-dom'
 
 const MobileNav = () => {
 
@@ -25,7 +24,6 @@ const MobileNav = () => {
 
   return (
     <nav className={classes.MobileNav}>
-      {/* <Link to="/"><h3>Korie + Weston</h3></Link> */}
       {open ? closeHamburger : hamburgerIcon}
       {open && <NavLinks isMobile={true} closeMobileNav={closeMobileNav} />}
     </nav>

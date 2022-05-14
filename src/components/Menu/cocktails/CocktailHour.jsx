@@ -1,12 +1,14 @@
 import React from 'react'
-import NavBar from '../../NavBar/NavBar'
+// import NavBar from '../../NavBar/NavBar'
 import classes from './Cocktails.module.css'
+import MenuNavBar from '../../NavBar/menu-nav/MobileMenuNav'
 
 const CocktailHour = () => {
   return (
     <div>
       <div className='bg'></div>
-      <NavBar />
+      {/* <NavBar /> */}
+      <MenuNavBar />
       <div className="Container">
         <h1 className={classes.CocktailsTitle}>Cocktail Hour</h1>
         <main className={classes.CocktailsMain}>
