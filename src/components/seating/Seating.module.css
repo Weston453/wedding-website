@@ -1,36 +1,27 @@
-.WhosWhoTitle {
+.seatingTitle {
     position: fixed;
     top: .5rem;
     z-index: 1;
 }
 
-.groomTitle {
-    margin-bottom: 2rem;
-}
-
-.brideTitle {
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-}
-
-.BAndGIcons {
-    height: 5rem;
-    /* margin-top: 1rem; */
-    margin-bottom: 2rem;
-}
-
 .seatingMain {
     margin-top: 7rem;
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.WhosWhoH2 {
+.seatingH2 {
     font-size: 1.75rem;
+    margin-bottom: 2rem;
 }
 
-.WhosWhoP {
+.seatingP {
     font-size: 1.25rem;
     margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .WhosWhoPLast {
@@ -38,17 +29,25 @@
     margin-bottom: 3rem;
 }
 
-.WhosWhoFirstDiv {
-    margin-bottom: 2rem;
+input {
+    background-color: transparent;
+    border: 2px #6DC8D5 solid;
+    border-radius: 5px;
+    min-height: 2.25rem;
+    min-width: 14rem;
+    text-align: center;
+    font-size: 1.1rem;
 }
 
-.WhosWhoLastDiv {
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+.findTableBtn {
+    margin: 0;
+    margin-top: 1rem;
+    min-height: 2.25rem;
+    min-width: 8rem;
 }
 
 @media (min-width: 990px) {
-    .WhosWhoTitle {
+    .seatingTitle {
         display: none;
     }
 }

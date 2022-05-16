@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import classes from './MenuNavBar.module.css';
 import MenuNavLinks from './MenuNavLinks'
 import { Link } from 'react-router-dom'
-import { BsArrowLeft } from 'react-icons/bs'
+import { BsArrowLeftShort } from 'react-icons/bs'
 import { FiMenu } from 'react-icons/fi'
 import { VscChromeClose } from 'react-icons/vsc'
 
@@ -22,7 +22,7 @@ const MobileMenuNav = () => {
                         />
 
   const backArrow = <Link to="/menuMain">
-                      <BsArrowLeft size="40px" className={classes.backArrow} />
+                      <BsArrowLeftShort size="40px" className={classes.backArrow} />
                     </Link>
 
   const closeMobileMenuNav = () => setOpenMenu(false)
