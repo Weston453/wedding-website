@@ -8,7 +8,7 @@ const Seating = () => {
       <div className='bg'></div>
       <NavBar />
       <div className='Container'>
-        <h1 className={classes.seatingTitle}>Seating Chart</h1>
+        <h1 className={classes.seatingTitle}>Seating</h1>
         <main className={classes.seatingMain}>
             <h2 className={classes.seatingH2}>
               Where am I sitting?

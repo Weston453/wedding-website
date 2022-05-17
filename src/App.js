@@ -13,7 +13,7 @@ import Seating from './components/seating/Seating';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/wedding-website'>
       <Routes>
         <Route path='/' element={<HeroPage />} />
         <Route path='/welcome' element={<Welcome />} />
