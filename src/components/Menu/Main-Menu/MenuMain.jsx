@@ -8,8 +8,8 @@ const MenuMain = () => {
     <div>
       <div className='bg'></div>
       <NavBar />
+      <h1 className={classes.MenuTitle}>Menu</h1>
       <div className={classes.mainMenuContainer}>
-        <h1 className={classes.MenuTitle}>Menu</h1>
         <div className={classes.LinksContainer}>
           <h1 className={classes.title}>
             <Link 
