@@ -41,7 +41,7 @@ hr {
         display: none;
     }
 
-   .welcomePOne, .welcomePTwo {
+    .welcomeP {
         width: 50%;
         margin: auto;
     }
