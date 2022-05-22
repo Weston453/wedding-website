@@ -111,6 +111,11 @@ const Seating = () => {
       return person.toLowerCase().includes(guestName)
     })
     setFoundPeople(filteredPeople)
+    setGuestName("")
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
   }
 
   return (
@@ -129,20 +134,21 @@ const Seating = () => {
             <p className={classes.seatingP}>
               Once you locate your table, your placecard will be at your seat
             </p>
-            <input 
-              placeholder='Last Name'
-              value={guestName}
-              onChange={e => setGuestName(e.target.value.toLowerCase())}
-            ></input>
-            <button 
-              className={classes.findTableBtn}
-              onClick={takeYourSeats}
-            >
-              Find Table
-            </button>       
-              {/* {foundPeople.map((person) => {
-                return <li>{person}</li>
-              })} */}
+            <form onSubmit={handleSubmit}>
+              <input 
+                type="text"
+                placeholder='Last Name'
+                value={guestName}
+                onChange={e => setGuestName(e.target.value.toLowerCase())}
+              ></input>
+              <button 
+                type="submit"
+                className={classes.findTableBtn}
+                onClick={takeYourSeats}
+              >
+                Find Table
+              </button>   
+            </form>    
               <div className={classes.seatingDisplay}>
                 <li className={classes.seatFinderDisplay}>{foundPeople[0]}</li>
                 <li className={classes.seatFinderDisplay}>{foundPeople[1]}</li>

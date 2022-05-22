@@ -50,7 +50,7 @@ input {
 .seatingDisplay {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;  
 }
 
 .seatFinderDisplay {
@@ -58,6 +58,12 @@ input {
     list-style: none;
     font-size: 1.25rem;
     font-weight: 300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (min-width: 990px) {
