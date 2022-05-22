@@ -14,7 +14,7 @@ const MenuMain = () => {
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="menuMain/cocktailHour"
+              to="/menuMain/cocktailHour"
             >Cocktail Hour</Link>
           </h1>
           <h1 className={classes.title}>
