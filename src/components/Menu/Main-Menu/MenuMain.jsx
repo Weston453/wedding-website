@@ -32,7 +32,7 @@ const MenuMain = () => {
           <h1 className={classes.title} >
             <Link 
               className={classes.menuLink} 
-              to="/menuMain/dinner"
+              to="/menuMain/dessertSnacks"
               >Desserts + Late Night Snacks</Link>
           </h1>
         </div>
