@@ -8,7 +8,6 @@ const app = express();
 
 app.use(express.static(path.resolve(__dirname, "..", "build")));
 
-//You were missing this
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../build/index.html"));
 });

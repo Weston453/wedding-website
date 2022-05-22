@@ -20,10 +20,10 @@ function App() {
         <Route path='/welcome' element={<Welcome />} />
         <Route path='/eventList' element={<EventList />} />
         <Route path='/menuMain' element={<MenuMain />} />
-        <Route path='/cocktailHour' element={<CocktailHour />} />
-        <Route path='/openBar' element={<OpenBar />} />
-        <Route path='/dinner' element={<Dinner />} />
-        <Route path='/dessertSnacks' element={<DessertSnacks />} />
+        <Route path='/menuMain/cocktailHour' element={<CocktailHour />} />
+        <Route path='/menuMain/openBar' element={<OpenBar />} />
+        <Route path='/menuMain/dinner' element={<Dinner />} />
+        <Route path='/menuMain/dessertSnacks' element={<DessertSnacks />} />
         <Route path='/whosWho' element={<WhosWho />} />
         <Route path='/seating' element={<Seating />} />
       </Routes>

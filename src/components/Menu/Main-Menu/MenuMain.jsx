@@ -14,25 +14,25 @@ const MenuMain = () => {
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="/CocktailHour"
+              to="menuMain/cocktailHour"
             >Cocktail Hour</Link>
           </h1>
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="/OpenBar"
+              to="/menuMain/openBar"
             >Open Bar</Link>
           </h1>
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="/Dinner"
+              to="/menuMain/dinner"
               >Dinner</Link>
           </h1>
           <h1 className={classes.title} >
             <Link 
               className={classes.menuLink} 
-              to="/DessertSnacks"
+              to="/menuMain/dinner"
               >Desserts + Late Night Snacks</Link>
           </h1>
         </div>
