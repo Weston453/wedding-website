@@ -57,8 +57,9 @@ const OpenBar = () => {
             <p className={classes.SubMenuBeerP}>the brewer's cabinet - tahoe blonde</p>
             <p className={classes.SubMenuBeerPLast}>21st amendment - homeward bound</p>
             <h3 className={classes.SubMenuH3}>Bottles and Cans</h3>
-            <p className={classes.SubMenuBeerP}>- see bartender -</p>
-            <p className={classes.SubMenuBeerP}>st. pauli girl - non-alcoholic</p>
+            <p className={classes.SubMenuBeerPLast}>- see bartender for alcoholic options -</p>
+            <h3 className={classes.SubMenuH3}>Non-Alcoholic</h3>
+            <p className={classes.SubMenuBeerP}>st. pauli girl</p>
           </div>
         </main>
       </div>

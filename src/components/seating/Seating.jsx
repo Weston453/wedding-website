@@ -124,13 +124,13 @@ const Seating = () => {
               Where am I sitting?
             </h2>
             <p className={classes.seatingP}>
-              Enter your last name below for your table  number
+              To find your table number, enter your last name below
             </p>
             <p className={classes.seatingP}>
-              Once you locate your table, please find your seat at the table (your name will be printed on a placecard in front of your seat)
+              Once you locate your table, your placecard will be at your seat
             </p>
             <input 
-              placeholder='Enter your last name here'
+              placeholder='Last Name'
               value={guestName}
               onChange={e => setGuestName(e.target.value.toLowerCase())}
             ></input>
@@ -138,7 +138,7 @@ const Seating = () => {
               className={classes.findTableBtn}
               onClick={takeYourSeats}
             >
-              Find table
+              Find Table
             </button>       
               {/* {foundPeople.map((person) => {
                 return <li>{person}</li>

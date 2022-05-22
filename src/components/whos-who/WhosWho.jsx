@@ -19,7 +19,7 @@ const WhosWho = () => {
             <p className={classes.WhosWhoP}>Weston's Parents</p>
             <h2 className={classes.WhosWhoH2}>Dell Barnes</h2>
             <p className={classes.WhosWhoP}>Best Man</p>
-            <h2 className={classes.WhosWhoH2}>Ray Reynolds</h2>
+            <h2 className={classes.WhosWhoH2}>Raymond Reynolds lll</h2>
             <p className={classes.WhosWhoP}>Groomsman</p>
             <h2 className={classes.WhosWhoH2}>Lucas Broskey</h2>
             <p className={classes.WhosWhoP}>Groomsman</p>
