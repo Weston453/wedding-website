@@ -1,5 +1,4 @@
 import React from 'react'
-// import NavBar from '../../NavBar/NavBar'
 import classes from './Cocktails.module.css'
 import MenuNavBar from '../../NavBar/menu-nav/MenuNavBar'
 
@@ -7,15 +6,12 @@ const CocktailHour = () => {
   return (
     <div>
       <div className='bg'></div>
-      {/* <NavBar /> */}
       <MenuNavBar />
       <div className="Container">
         <h1 className={classes.CocktailsTitle}>Cocktail Hour</h1>
         <main className={classes.CocktailsMain}>
           <div>
-            <h2 className={classes.passedCocktails}>
-              Passed Cocktails
-            </h2>
+            <h2 className={classes.passedCocktails}>Passed Cocktails</h2>
             <h3 className={classes.SubMenuH3}>Rosé All Day</h3>
             <p className={classes.SubMenuP}>tito's lemon, simple, sparkling rosé float</p>
             <h3 className={classes.SubMenuH3}>Homewood Mojito</h3>
@@ -25,9 +21,7 @@ const CocktailHour = () => {
           </div>
           <hr></hr>
           <div>
-            <h2  className={classes.PassedAppetizers}>
-              Passed Appetizers
-            </h2>
+            <h2  className={classes.PassedAppetizers}>Passed Appetizers</h2>
             <h3 className={classes.SubMenuH3}>Artisan Grilled Cheese</h3>
             <p className={classes.SubMenuP}>tomato jam, basil</p>
             <h3 className={classes.SubMenuH3}>Wild Mushroom Tart</h3>

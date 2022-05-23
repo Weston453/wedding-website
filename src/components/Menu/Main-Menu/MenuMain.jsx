@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar from '../../NavBar/NavBar'
-import classes from './MainMenu.module.css'
+import classes from './MenuMain.module.css'
 
 const MenuMain = () => {
   return (
@@ -14,26 +14,26 @@ const MenuMain = () => {
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="/menuMain/cocktailHour"
+              to="/main-menu/cocktail-hour"
             >Cocktail Hour</Link>
           </h1>
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="/menuMain/openBar"
+              to="/main-menu/open-bar"
             >Open Bar</Link>
           </h1>
           <h1 className={classes.title}>
             <Link 
               className={classes.menuLink} 
-              to="/menuMain/dinner"
-              >Dinner</Link>
+              to="/main-menu/dinner"
+            >Dinner</Link>
           </h1>
           <h1 className={classes.title} >
             <Link 
               className={classes.menuLink} 
-              to="/menuMain/dessertSnacks"
-              >Desserts + Late Night Snacks</Link>
+              to="/main-menu/desserts-and-snacks"
+            >Desserts + Late Night Snacks</Link>
           </h1>
         </div>
       </div>

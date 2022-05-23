@@ -22,10 +22,6 @@
     line-height: 1.5;
 }
 
-/* .NavBar a:hover {
-    color: skyblue;
-} */
-
 .NavBar .MobileNav {
     display: none;
 }
@@ -55,11 +51,7 @@
         right: 5%;
         cursor: pointer;
     }
-    
-    /* .NavBar .MobileNav .Hamburger:hover{
-        color: skyblue;
-    } */
-    
+
     .NavBar nav ul {
         display: flex;
         flex-direction: column;
@@ -70,12 +62,7 @@
         width: 100%;
         background-color: white;
         padding-bottom: 2%;
-        /* border-bottom: 1px solid; */
     }
-    
-    /* .NavBar a:hover {
-        color: skyblue;
-    } */
 }
 
 @media (max-width: 360px) {

@@ -1,5 +1,4 @@
 import React from 'react'
-// import NavBar from '../../NavBar/NavBar'
 import classes from './OpenBar.module.css'
 import MenuNavBar from '../../NavBar/menu-nav/MenuNavBar'
 
@@ -12,9 +11,7 @@ const OpenBar = () => {
         <h1  className={classes.CocktailsTitle}>Open Bar</h1>
         <main className={classes.CocktailsMain}>
           <div>
-            <h2 className={classes.wine}>
-              Wine
-            </h2>
+            <h2 className={classes.wine}>Wine</h2>
             <h3 className={classes.SubMenuH3}>Pinot Grigio</h3>
             <p className={classes.SubMenuP}>santa margarita, italy</p>
             <h3 className={classes.SubMenuH3}>Chardonnay</h3>
@@ -28,9 +25,7 @@ const OpenBar = () => {
           </div>
           <hr></hr>
           <div>
-            <h2 className={classes.spirits}>
-              Spirits
-            </h2>
+            <h2 className={classes.spirits}>Spirits</h2>
             <h3 className={classes.SubMenuH3}>Vodka</h3>
             <p className={classes.SubMenuP}>tito’s, ketel one</p>
             <h3 className={classes.SubMenuH3}>Rum</h3>
@@ -46,9 +41,7 @@ const OpenBar = () => {
           </div>
           <hr></hr>
           <div className={classes.SubMenuLastDiv}>
-            <h2 className={classes.beer}>
-              Beer
-            </h2>
+            <h2 className={classes.beer}>Beer</h2>
             <h3 className={classes.SubMenuH3}>On Draft</h3>
             <p className={classes.SubMenuBeerP}>fall river - numb numb juicy hazy IPA</p>
             <p className={classes.SubMenuBeerP}>elysian - space dust IPA</p>

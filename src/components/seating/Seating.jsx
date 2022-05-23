@@ -7,8 +7,6 @@ const Seating = () => {
   const [ guestName, setGuestName ] = useState("")
   const [ foundPeople, setFoundPeople ] = useState("")
 
-  // const people = ['Korie Bayne - Table 1', 'Korie Bayne: Table 2', 'Korie Bayne: Table 3', 'Korie Bayne: Table 4', 'Korie Bayne: Table 5', 'Korie Bayne: Table 1', 'Korie Bayne: Table 1','cheese wheel', 'oats', 'pasta', 'booster', 'turbo'];
- 
   const people = [
     'Susannah Anders - Table 7', 
     'Anthony Armendariz - Table 4', 

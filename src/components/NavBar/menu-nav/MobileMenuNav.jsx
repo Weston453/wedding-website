@@ -11,13 +11,11 @@ const MobileMenuNav = () => {
 
   const hamburgerMenuIcon = <FiMenu className={classes.MenuHamburger} 
                         size="40px"
-                        // color="white"
                         onClick={() => setOpenMenu(!openMenu)}
                         />
 
   const closeMenuHamburger = <VscChromeClose className={classes.MenuHamburger} 
                         size="40px"
-                        // color="white"
                         onClick={() => setOpenMenu(!openMenu)}
                         />
 

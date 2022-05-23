@@ -1,6 +1,5 @@
 .CocktailsTitle {
     position: fixed;
-    /* top: .5rem; */
     z-index: 1;
 }
 
@@ -20,7 +19,6 @@
     font-size: 1.75rem;
     line-height: 2.5;
     margin-top: 2rem;
-    /* margin-bottom: 1rem; */
 }
 
 .afterHoursFun {

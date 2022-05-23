@@ -18,13 +18,13 @@ function App() {
       <Routes>
         <Route path='/' element={<HeroPage />} />
         <Route path='/welcome' element={<Welcome />} />
-        <Route path='/eventList' element={<EventList />} />
-        <Route path='/menuMain' element={<MenuMain />} />
-        <Route path='/menuMain/cocktailHour' element={<CocktailHour />} />
-        <Route path='/menuMain/openBar' element={<OpenBar />} />
-        <Route path='/menuMain/dinner' element={<Dinner />} />
-        <Route path='/menuMain/dessertSnacks' element={<DessertSnacks />} />
-        <Route path='/whosWho' element={<WhosWho />} />
+        <Route path='/event-list' element={<EventList />} />
+        <Route path='/main-menu' element={<MenuMain />} />
+        <Route path='/main-menu/cocktail-hour' element={<CocktailHour />} />
+        <Route path='/main-menu/open-bar' element={<OpenBar />} />
+        <Route path='/main-menu/dinner' element={<Dinner />} />
+        <Route path='/main-menu/desserts-and-snacks' element={<DessertSnacks />} />
+        <Route path='/whos-who' element={<WhosWho />} />
         <Route path='/seating' element={<Seating />} />
       </Routes>
     </BrowserRouter>

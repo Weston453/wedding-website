@@ -1,5 +1,4 @@
 import React from 'react'
-// import NavBar from '../../NavBar/NavBar'
 import classes from './Dinner.module.css'
 import MenuNavBar from '../../NavBar/menu-nav/MenuNavBar'
 
@@ -12,17 +11,13 @@ const Dinner = () => {
         <h1 className={classes.CocktailsTitle}>Dinner</h1>
         <main className={classes.CocktailsMain}>
           <div>
-            <h2 className={classes.firstCourse}>
-              First Course
-            </h2>
+            <h2 className={classes.firstCourse}>First Course</h2>
             <h3 className={classes.SubMenuH3}>West Shore Salad</h3>
             <p className={classes.SubMenuPLast}>baby mixed greens, cucumber, tomato, carrots, champagne dressing</p>
           </div>
           <hr></hr>
           <div className={classes.SubMenuLastDiv}>
-            <h2 className={classes.mainCourse}>
-              Main Course
-            </h2>
+            <h2 className={classes.mainCourse}>Main Course</h2>
             <h3 className={classes.SubMenuH3}>Braised Beef Short Rib</h3>
             <p className={classes.SubMenuP}>roasted root vegetables, creamy truffled polenta, natural beef jus</p>
             <h3 className={classes.SubMenuH3}>Pacific Salmon Fillet</h3>
