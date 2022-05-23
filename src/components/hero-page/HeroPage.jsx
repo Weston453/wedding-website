@@ -12,7 +12,7 @@ const HeroPage = () => {
         <h1>Welcome to</h1>
         <h1>Korie and Weston's</h1> 
         <h1>Wedding</h1>
-        <Link to="/Welcome"><button>Join us</button></Link>
+        <Link to="/welcome"><button>Join us</button></Link>
       </div>
     </div>
   )

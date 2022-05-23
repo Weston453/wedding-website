@@ -19,7 +19,7 @@ const MobileMenuNav = () => {
                         onClick={() => setOpenMenu(!openMenu)}
                         />
 
-  const backArrow = <Link to="/menuMain">
+  const backArrow = <Link to="/main-menu">
                       <BsArrowLeftShort size="40px" className={classes.backArrow} />
                     </Link>
 
